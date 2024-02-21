@@ -1,0 +1,93 @@
+@import "./userSelect.css";
+@import "./userInput.css";
+@import "./fromPlan.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.scrol {
+  overflow-y: scroll;
+  padding: 15px;
+}
+
+table.iksweb {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: auto;
+}
+table.iksweb,
+table.iksweb td,
+table.iksweb th {
+  border: 1px solid #595959;
+}
+table.iksweb td,
+table.iksweb th {
+  padding: 3px;
+}
+table.iksweb th {
+  color: #000;
+  font-weight: normal;
+  text-align: center;
+}
+table.iksweb tr:hover {
+  background-color: #f9fafb;
+}
+table.iksweb tr:hover td {
+  color: #354251;
+  cursor: default;
+}
+.rotateTd {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+
+@media (max-width: 426px) {
+  .form-select,
+  .form-select__data,
+  .semestrs-wrap {
+    width: 100%;
+  }
+  .form-select__data {
+    margin: 0;
+  }
+  .form-select__data select,
+  input {
+    width: 100%;
+  }
+  .form-select__data > input[type="text"] {
+    width: 100%;
+  }
+  .course > div {
+    width: 100%;
+  }
+  .course > div:first-child {
+    margin: 0px;
+  }
+  .form-submit button {
+    width: 100%;
+  }
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+
+@media (max-width: 768px) {
+  .table-wrapper {
+    overflow-x: scroll;
+  }
+}

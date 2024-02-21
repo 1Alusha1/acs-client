@@ -1,0 +1,100 @@
+.w100p {
+  width: 100%;
+}
+.count-week select {
+  width: 100%;
+}
+.count-week {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.searched-input__result {
+  background: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 5px;
+  position: absolute;
+  z-index: 2;
+  overflow-y: scroll;
+  width: 200px;
+  height: auto;
+  max-height: 300px;
+  box-shadow: 0px 0px 17px 0px;
+}
+.searched-input__result-item {
+  padding: 2px;
+}
+.searched-input__result-item:hover {
+  cursor: pointer;
+  background: #c4cbd3;
+  border-radius: 2px;
+}
+
+.card-wrapper {
+  width: 100%;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.data-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.data-row h4 {
+  margin-right: 10px;
+}
+
+.data-row p {
+  flex: 1;
+  word-wrap: initial; /* Это свойство позволяет переносить текст на новую строку */
+}
+
+.form-plan {
+  margin-bottom: 20px;
+}
+.form-submit {
+  width: 200px;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+.form-submit input {
+  cursor: pointer;
+}
+
+.semestrs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.course {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.course > div:first-child {
+  margin-right: 15px;
+}
+
+.form-select {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.form-select__data {
+  margin-right: 20px;
+}
+
+.semestrs-wrap {
+  margin-bottom: 15px;
+}
